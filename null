@@ -5,17 +5,17 @@
 		<link rel="icon" href="/sleep_golden_site/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/entry/start.Bb5nlKdv.js">
-		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/chunks/entry.IRShRDmS.js">
+		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/entry/start.ldlGhBy9.js">
+		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/chunks/entry.CZCkIcY_.js">
 		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/chunks/scheduler.W2pu3yam.js">
-		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/entry/app.CurMzs2F.js">
+		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/entry/app.BD_6FYHC.js">
 		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/chunks/index.CV5QbAHm.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_13ezd6f = {
+					__sveltekit_ew5nv8 = {
 						base: "/sleep_golden_site",
 						assets: "/sleep_golden_site"
 					};
@@ -23,8 +23,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/sleep_golden_site/_app/immutable/entry/start.Bb5nlKdv.js"),
-						import("/sleep_golden_site/_app/immutable/entry/app.CurMzs2F.js")
+						import("/sleep_golden_site/_app/immutable/entry/start.ldlGhBy9.js"),
+						import("/sleep_golden_site/_app/immutable/entry/app.BD_6FYHC.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
