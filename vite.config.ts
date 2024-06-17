@@ -4,9 +4,7 @@ import { defineConfig } from 'vite';
 export default defineConfig(({ mode }) => ({
 
 	plugins: [sveltekit()],
-	resolve: {
-		alias: {
-			// $img: mode === "production" ? "/" : "./static",
-		},
-	},
+	css: {
+		postcss: "./postcss.config.js",
+	}
 }));
