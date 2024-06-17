@@ -2,7 +2,10 @@
     import "../app.css";
     import NavBar from "../components/NavBar.svelte";
     import Hero from "../components/Hero.svelte";
+    import WhatsAppButton from "../components/WhatsAppButton.svelte";
     import ProductCard from "../components/ProductCard.svelte";
+    import TopBar from "../components/TopBar.svelte";
+    import Footer from "../components/Footer.svelte";
 
     const products = [
         {
@@ -38,6 +41,8 @@
     ];
 </script>
 
+<TopBar />
+
 <NavBar />
 
 <Hero />
@@ -54,3 +59,7 @@
         </div>
     </div>
 </section>
+
+<Footer />
+
+<WhatsAppButton />

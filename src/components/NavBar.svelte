@@ -5,22 +5,14 @@
 </script>
 
 <nav class="bg-white shadow-md">
-    <div class="container mx-auto px-6 py-3">
-        <div class="flex items-center justify-between">
+    <div class="container mx-auto py-5">
+        <div class="flex items-center justify-center">
             <div>
-                <img src={logo} alt="Sleep Golden" class="h-10" />
+                <img src={logo} alt="Sleep Golden" class="h-16" />
             </div>
-            <ul class="flex space-x-4">
-                <li class="text-green-500 hover:text-green-700">
-                    <a
-                        href={whatsLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        WhatsApp
-                    </a>
-                </li>
-            </ul>
+            <!-- <ul class="flex space-x-4">
+                <li><a href="/contact">Contato</a></li>
+            </ul> -->
         </div>
     </div>
 </nav>
