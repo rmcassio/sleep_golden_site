@@ -1,5 +1,5 @@
 <script>
-    export const logo = "src/assets/images/logo_sem_fundo.png";
+    export const logo = "logo_sem_fundo.png";
     export const whatsLink =
         "https://wa.me/+5551994055464?text=Olá!%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais";
 </script>

@@ -14,7 +14,7 @@
         position: relative;
     }
     .bg-hero-image {
-        background-image: url("src/assets/images/bg.jpeg");
+        background-image: url("bg.jpeg");
         filter: blur(1px);
     }
     .gradient-text {

@@ -8,32 +8,32 @@
         {
             name: "Box 1",
             price: "$200",
-            image: "src/assets/images/logo.png",
+            image: "logo.png",
         },
         {
             name: "Box 2",
             price: "$300",
-            image: "src/assets/images/logo.png",
+            image: "logo.png",
         },
         {
             name: "Box 3",
             price: "$400",
-            image: "src/assets/images/logo.png",
+            image: "logo.png",
         },
         {
             name: "Box 4",
             price: "$400",
-            image: "src/assets/images/logo.png",
+            image: "logo.png",
         },
         {
             name: "Box 5",
             price: "$400",
-            image: "src/assets/images/logo.png",
+            image: "logo.png",
         },
         {
             name: "Box 6",
             price: "$400",
-            image: "src/assets/images/logo.png",
+            image: "logo.png",
         },
     ];
 </script>
