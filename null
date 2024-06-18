@@ -5,17 +5,17 @@
 		<link rel="icon" href="/sleep_golden_site/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/entry/start.CUd-sJ2T.js">
-		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/chunks/entry.D2yNnWry.js">
-		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/chunks/scheduler.W2pu3yam.js">
-		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/entry/app.B-rOvGo7.js">
-		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/chunks/index.DUv3Y7Js.js">
+		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/entry/start.DkkjPGDd.js">
+		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/chunks/entry.PCpwMnr9.js">
+		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/chunks/scheduler.CitnfU68.js">
+		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/entry/app.CE6RQYHO.js">
+		<link rel="modulepreload" href="/sleep_golden_site/_app/immutable/chunks/index.Dby_QU_r.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_sp2f8e = {
+					__sveltekit_1s8xr68 = {
 						base: "/sleep_golden_site",
 						assets: "/sleep_golden_site"
 					};
@@ -23,8 +23,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/sleep_golden_site/_app/immutable/entry/start.CUd-sJ2T.js"),
-						import("/sleep_golden_site/_app/immutable/entry/app.B-rOvGo7.js")
+						import("/sleep_golden_site/_app/immutable/entry/start.DkkjPGDd.js"),
+						import("/sleep_golden_site/_app/immutable/entry/app.CE6RQYHO.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
