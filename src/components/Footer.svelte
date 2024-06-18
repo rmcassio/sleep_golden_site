@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
   import EmailIcon from "./EmailIcon.svelte";
   import PhoneIcon from "./PhoneIcon.svelte";
 
-  export const logo = "logo_sem_fundo.png";
+  let logo = "logo_sem_fundo.png";
   let address = "Av José Antônio de Oliveira Neto, Araricá, RS";
   let phoneNumber = "51 996162444";
   let emailAddress = "sleepgoldencamas@gmail.com";
@@ -49,18 +49,17 @@
 
   .logo {
     width: 200px;
-    padding: 16; /* Adjust logo width */
+    padding: 16;
   }
 
   .contact-info {
     text-align: center;
-    flex-grow: 1; /* Allow the contact info to take up remaining space */
+    flex-grow: 1;
   }
 
   @media (max-width: 768px) {
-    /* Styles for mobile devices */
     .contact-info {
-      font-size: 0.8em; /* Smaller font size for mobile devices */
+      font-size: 0.8em;
     }
   }
 
