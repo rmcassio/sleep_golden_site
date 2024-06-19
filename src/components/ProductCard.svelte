@@ -39,7 +39,7 @@
   />
 </div>
 
-<div class="max-w-xs bg-white shadow-md rounded-lg overflow-hidden w-80">
+<div class="max-w-xs bg-white shadow rounded overflow-hidden w-80">
   <div
     aria-hidden="true"
     class="relative overflow-hidden"
@@ -56,7 +56,7 @@
     />
   </div>
   <div class="p-4">
-    <h3 class="font-bold text-xl">{product.name}</h3>
+    <h3 class="text-gray-900">{product.name}</h3>
   </div>
 </div>
 
